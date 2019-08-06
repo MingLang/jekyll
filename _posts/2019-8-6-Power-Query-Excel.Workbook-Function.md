@@ -7,13 +7,13 @@ title: Power Query Excel.Workbook Function
 [Excel.Workbook](https://docs.microsoft.com/en-us/powerquery-m/excel-workbook)
 
 ## Syntax
-Excel.Workbook(workbook as binary, optional useHeaders as nullable logical, optional delayTypes as nullable logical) as table
+```Excel.Workbook(workbook as binary, optional useHeaders as nullable logical, optional delayTypes as nullable logical) as table```
 
 ## Return value
 Returns a record of Sheets from the Excel workbook.
 
 ## Example
-Excel.Workbook(File.Contents([Folder Path]&[Name]), true, true)
+```Excel.Workbook(File.Contents([Folder Path]&[Name]), true, true)```
 
 
 
