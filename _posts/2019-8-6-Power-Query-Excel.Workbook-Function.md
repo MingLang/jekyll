@@ -1,6 +1,6 @@
 ---
-Style: Post
-Title: Power Query Excel.Workbook Function
+layout: Post
+title: Power Query Excel.Workbook Function
 ---
 
 [Excel.Workbook](https://docs.microsoft.com/en-us/powerquery-m/excel-workbook)
