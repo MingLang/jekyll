@@ -1,5 +1,5 @@
 ---
-layout: Post
+layout: post
 title: Power Query Excel.Workbook Function
 ---
 
