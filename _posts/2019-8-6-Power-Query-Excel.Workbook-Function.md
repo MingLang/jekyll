@@ -19,7 +19,7 @@ The first parameter of Excel.Workbook() needs to be a binary format Excel workbo
 
 The second parameter "useHeaders" is to decide if headers will be prompted automatically. It is nullable and when the value is null it means false, i.e. the headers will not be used.
 
-Regarding the third parameter, please see an artical from Chris Webb at <https://blog.crossjoin.co.uk/2019/02/02/excel-workbook-and-the-delaytypes-option-in-power-query-power-bi/>
+Regarding the third parameter, [an artical](https://blog.crossjoin.co.uk/2019/02/02/excel-workbook-and-the-delaytypes-option-in-power-query-power-bi/) from Chris Webb has a good explaination. 
 
 >"Originally, Excel.Workbook used to read the entire workbook data to accurately assign types to the columns. This was EXTREMELY slow on large workbooks."
 
