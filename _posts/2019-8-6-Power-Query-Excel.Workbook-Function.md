@@ -15,7 +15,9 @@ Returns a record of Sheets from the Excel workbook.
 Excel.Workbook(File.Contents([Folder Path]&[Name]), true, true)
 
 
-The second parameter of Exce.Workbook() "useHeaders" is to decide if headers will be prompted automatically. It is nullable and when the value is null it means false, i.e. the headers will not be used.
+The first parameter of Excel.Workbook() needs to be a binary format Excel workbook, and the funciton [File.Contents](https://docs.microsoft.com/en-us/powerquery-m/file-contents) returns the contents of a file as binary.
+
+The second parameter "useHeaders" is to decide if headers will be prompted automatically. It is nullable and when the value is null it means false, i.e. the headers will not be used.
 
 Regarding the third parameter, please see an artical from Chris Webb at <https://blog.crossjoin.co.uk/2019/02/02/excel-workbook-and-the-delaytypes-option-in-power-query-power-bi/>
 
