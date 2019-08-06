@@ -27,7 +27,4 @@ Regarding the third parameter, [an artical](https://blog.crossjoin.co.uk/2019/02
 >
 >Having this in mind, we added this flag to delay the behavior. When set to “true”, we don’t infer any column types.
 
-So, the third parameter "delayTypes" is used to delay the type assigning behavior. According to Chris, Setting delayTypes to true results in much better performance.
-
-delayTypes is nullable and is set to be false by default if not specified.
-
+So, the third parameter "delayTypes" is used to delay the type assigning behavior. It is nullable and is set to be false by default if not specified. According to Chris, Setting delayTypes to true results in much better performance.
