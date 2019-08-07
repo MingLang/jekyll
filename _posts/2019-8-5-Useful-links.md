@@ -2,7 +2,13 @@
 layout: post
 title: Useful links
 ---
+## Power query (M Language)
 
+[lists, records and tables in Power Query – how, when and why](https://ssbi-blog.de/lists-records-and-tables-in-power-query-how-when-and-why/)
+
+[Basics of Value Structures](https://radacad.com/basics-of-value-structures-in-m-power-query-formula-language)
+
+## To be organized
 
 [pixelarity](https://pixelarity.com)
 
