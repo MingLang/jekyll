@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Power Query Excel.Workbook Function
+category: Power Query
+tags: [Power Query, Excel.Workbook]
 ---
 
 
