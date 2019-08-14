@@ -2,7 +2,7 @@
 layout: post
 title: Difference between Duration.Hours and Duration.TotalHours
 category: Power Query
-tags: Power Query
+tags: [Power Query]
 ---
 
 Duration.TotalSeconds returns the duration in seconds.
